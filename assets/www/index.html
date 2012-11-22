@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>motoExpress-app</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="container">
+    <div class="row">  
+    <div class="tabbable">  
+      <ul class="nav nav-tabs">  
+        <li class="active"><a href="#1" data-toggle="tab">新增記錄MOTO</a></li>  
+        <li class=""><a href="#2" data-toggle="tab">Section 2</a></li>  
+      </ul>  
+      <div class="tab-content">  
+        <div class="tab-pane active" id="1">  
+          <form class="form-horizontal">
+            <fieldset>
+              <!-- <legend>新增記錄MOTO</legend> -->
+              <div class="control-group">
+                <label class="control-label" for="input01">mail</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge" id="input01">
+                  <p class="help-block"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="input01">廠牌</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge" id="input01">
+                  <p class="help-block"></p>
+                </div>
+              </div>
+               <div class="control-group">
+                <label class="control-label" for="input01">型號</label>
+                <div class="controls">
+                  <input type="text" class="input-xlarge" id="input01">
+                  <p class="help-block"></p>
+                </div>
+              </div>
+            </fieldset>
+            <button type="botton" class="btn save">儲存</button>
+            <button type="botton" class="btn">重設</button>
+          </form>
+        </div>  
+        <div class="tab-pane" id="2">  
+          <p>You are watching Section 2.</p>  
+        </div>  
+        <div class="tab-pane" id="3">  
+          <p>You are watching Section 3.</p>  
+        </div>  
+      </div>  
+    </div>  
+    </div> 
+    </div> 
+
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="cordova-2.1.0.js"></script>
+    <script type="text/javascript" src="js/gen/index.js"></script>    
+    <script type="text/javascript">
+      app.initialize();
+    </script>
+  </body>
